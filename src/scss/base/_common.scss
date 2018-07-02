@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    height: 100%;
+    .el-breadcrumb {
+        background-color: #fff;
+        padding: 10px;
+    }
+}
+
+.fr {
+    float: right;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.el-pagination {
+    margin-top: 10px;
+}
+
+.el-select-dropdown__wrap {
+    max-height: 370px;
+}
+
+
+/* 过渡动画   淡入淡出   start */
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 0.1s ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0;
+}
+
+
+/* 过渡动画   淡入淡出   end */
